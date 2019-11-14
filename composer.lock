@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd37a2ed0008ab9818035a7c649f01ee",
+    "content-hash": "e96216c16f962aa17dc713e275172aea",
     "packages": [
         {
             "name": "castlegate/monolith-core",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/castlegateit/monolith-core.git",
-                "reference": "cedc9d39cd3690a8a1a8463283d151796f53028e"
+                "reference": "73e812ac360bed0b697234603ab1db1cbb1dd4aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/castlegateit/monolith-core/zipball/cedc9d39cd3690a8a1a8463283d151796f53028e",
-                "reference": "cedc9d39cd3690a8a1a8463283d151796f53028e",
+                "url": "https://api.github.com/repos/castlegateit/monolith-core/zipball/73e812ac360bed0b697234603ab1db1cbb1dd4aa",
+                "reference": "73e812ac360bed0b697234603ab1db1cbb1dd4aa",
                 "shasum": ""
             },
             "type": "library",
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "Basic utilities and functions for PHP development.",
-            "time": "2019-11-12T11:03:07+00:00"
+            "time": "2019-11-14T13:36:09+00:00"
         }
     ],
     "packages-dev": [],
