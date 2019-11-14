@@ -1,0 +1,28 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^index\.php$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+ErrorDocument 403 /page-not-found
+ErrorDocument 404 /page-not-found
+
+RewriteRule ^classes/.*$         /page-not-found [L,R=404]
+RewriteRule ^node_modules/.*$    /page-not-found [L,R=404]
+RewriteRule ^pages/.*$           /page-not-found [L,R=404]
+RewriteRule ^src/.*$             /page-not-found [L,R=404]
+RewriteRule ^vendor/.*$          /page-not-found [L,R=404]
+RewriteRule ^\.git.*$            /page-not-found [L,R=404]
+RewriteRule ^\.gitignore$        /page-not-found [L,R=404]
+RewriteRule ^composer\.json$     /page-not-found [L,R=404]
+RewriteRule ^composer\.lock$     /page-not-found [L,R=404]
+RewriteRule ^config\.php$        /page-not-found [L,R=404]
+RewriteRule ^functions\.php$     /page-not-found [L,R=404]
+RewriteRule ^gulpfile\.js$       /page-not-found [L,R=404]
+RewriteRule ^LICENSE$            /page-not-found [L,R=404]
+RewriteRule ^package-lock\.json$ /page-not-found [L,R=404]
+RewriteRule ^package\.json$      /page-not-found [L,R=404]
+RewriteRule ^README\.md$         /page-not-found [L,R=404]

@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dd37a2ed0008ab9818035a7c649f01ee",
+    "packages": [
+        {
+            "name": "castlegate/monolith-core",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/castlegateit/monolith-core.git",
+                "reference": "cedc9d39cd3690a8a1a8463283d151796f53028e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/castlegateit/monolith-core/zipball/cedc9d39cd3690a8a1a8463283d151796f53028e",
+                "reference": "cedc9d39cd3690a8a1a8463283d151796f53028e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Castlegate\\Monolith\\Core\\": "classes"
+                },
+                "files": [
+                    "functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John Hughes",
+                    "email": "john@castlegateit.co.uk"
+                }
+            ],
+            "description": "Basic utilities and functions for PHP development.",
+            "time": "2019-11-12T11:03:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
