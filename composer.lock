@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "castlegate/monolith-core",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/castlegateit/monolith-core.git",
-                "reference": "73e812ac360bed0b697234603ab1db1cbb1dd4aa"
+                "reference": "57b2166b457fee53208b6b86f368c6d1dd844da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/castlegateit/monolith-core/zipball/73e812ac360bed0b697234603ab1db1cbb1dd4aa",
-                "reference": "73e812ac360bed0b697234603ab1db1cbb1dd4aa",
+                "url": "https://api.github.com/repos/castlegateit/monolith-core/zipball/57b2166b457fee53208b6b86f368c6d1dd844da8",
+                "reference": "57b2166b457fee53208b6b86f368c6d1dd844da8",
                 "shasum": ""
             },
             "type": "library",
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "Basic utilities and functions for PHP development.",
-            "time": "2019-11-14T13:36:09+00:00"
+            "time": "2019-11-18T12:34:56+00:00"
         }
     ],
     "packages-dev": [],

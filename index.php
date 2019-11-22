@@ -31,8 +31,10 @@ $pages = __DIR__ . '/pages';
 $file = $pages . $file;
 
 // Load configuration, classes, and functions
-require __DIR__ . '/config.php';
-require __DIR__ . '/vendor/autoload.php';
+$atlas = json_decode(file_get_contents(__DIR__ . '/config.json'));
+
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 // Does the page exist?
 if (!is_file($file)) {

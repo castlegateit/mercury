@@ -1,5 +1,7 @@
 <?php
 
+define('ATLAS_PREFIX', $atlas->prefix);
+
 define('SITE_DIR', __DIR__);
 define('SITE_URL', 'https://www.example.com/');
 

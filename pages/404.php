@@ -8,7 +8,7 @@ require SITE_DIR . '/components/header.php';
 
 ?>
 
-<div class="container">
+<div class="container my-5">
     <div class="row">
         <div class="col">
             <h1>Page not found</h1>
