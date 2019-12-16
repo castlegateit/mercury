@@ -9,6 +9,10 @@ Mercury is a basic site template written in [PHP](https://www.php.net/) and inte
     composer install
     npm install
 
+## Core
+
+The contents of the `core` directory are essential parts of Mercury and should not be modified with the rest of the site.
+
 ## Extend
 
 The site uses [Boostrap](https://getbootstrap.com/) and [Atlas](https://github.com/castlegateit/atlas) to provide basic styles. The class name prefix used by Atlas components is set in the `config.json` file, which is read by Gulp and PHP to ensure that the prefix is set consistently in the HTML, CSS, and JavaScript output.
@@ -89,11 +93,11 @@ Pages may load components from the `components` directory. As far as possible, e
 
 #### Classes
 
-PHP classes should be saved as separate files in the `classes` directory and should follow the [PHP-FIG](https://www.php-fig.org/) standards. The classes defined in this directory are autoloaded by Composer in the `Castlegate\Mercury` namespace.
+PHP classes should be saved as separate files in the `classes` directory and should follow the [PHP-FIG](https://www.php-fig.org/) standards. The classes defined in this directory are autoloaded by Composer in the `Castlegate\Mercury\Theme` namespace.
 
 #### Functions
 
-PHP function should be saved in the `functions.php` file. These functions will also be autoloaded by Composer in the `Castlegate\Mercury` namespace.
+PHP function should be saved in the `functions.php` file. These functions will also be autoloaded by Composer in the `Castlegate\Mercury\Theme` namespace.
 
 #### Composer
 

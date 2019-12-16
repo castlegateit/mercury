@@ -3,11 +3,9 @@
 namespace Castlegate\Mercury\Theme;
 
 /**
- * Example function
- *
- * @return void
+ * Example class
  */
-function example()
+class Example
 {
     // ...
 }

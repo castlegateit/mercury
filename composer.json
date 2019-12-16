@@ -13,7 +13,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Castlegate\\Mercury\\": "classes"
+            "Castlegate\\Mercury\\Core": "core/classes",
+            "Castlegate\\Mercury\\Theme": "classes"
         },
         "files": [
             "functions.php"

@@ -1,6 +1,6 @@
 {
   "name": "castlegate-mercury",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Standard front end templates and basic site framework",
   "main": "index.js",
   "scripts": {
